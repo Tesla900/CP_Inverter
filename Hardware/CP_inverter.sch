@@ -98,18 +98,16 @@ Wire Wire Line
 Wire Wire Line
 	20300 9750 20450 9750
 Wire Wire Line
-	20450 9750 20450 9650
-Wire Wire Line
 	20300 10250 20450 10250
 $Comp
 L power:+15V #PWR055
 U 1 1 5FFE9B93
-P 20450 9650
-F 0 "#PWR055" H 20450 9500 50  0001 C CNN
-F 1 "+15V" H 20465 9823 50  0000 C CNN
-F 2 "" H 20450 9650 50  0001 C CNN
-F 3 "" H 20450 9650 50  0001 C CNN
-	1    20450 9650
+P 20450 9600
+F 0 "#PWR055" H 20450 9450 50  0001 C CNN
+F 1 "+15V" H 20465 9773 50  0000 C CNN
+F 2 "" H 20450 9600 50  0001 C CNN
+F 3 "" H 20450 9600 50  0001 C CNN
+	1    20450 9600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -126,43 +124,43 @@ $EndComp
 $Comp
 L power:+15V #PWR058
 U 1 1 60002738
-P 21400 9450
-F 0 "#PWR058" H 21400 9300 50  0001 C CNN
-F 1 "+15V" H 21415 9623 50  0000 C CNN
-F 2 "" H 21400 9450 50  0001 C CNN
-F 3 "" H 21400 9450 50  0001 C CNN
-	1    21400 9450
+P 21450 9550
+F 0 "#PWR058" H 21450 9400 50  0001 C CNN
+F 1 "+15V" H 21465 9723 50  0000 C CNN
+F 2 "" H 21450 9550 50  0001 C CNN
+F 3 "" H 21450 9550 50  0001 C CNN
+	1    21450 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21400 9950 21400 9900
-Connection ~ 21400 9900
+	21450 10050 21450 10000
+Connection ~ 21450 10000
 Wire Wire Line
-	21400 9900 21400 9850
+	21450 10000 21450 9950
 $Comp
 L power:-5V #PWR059
 U 1 1 60019476
-P 21400 10350
-F 0 "#PWR059" H 21400 10450 50  0001 C CNN
-F 1 "-5V" H 21415 10523 50  0000 C CNN
-F 2 "" H 21400 10350 50  0001 C CNN
-F 3 "" H 21400 10350 50  0001 C CNN
-	1    21400 10350
+P 21450 10450
+F 0 "#PWR059" H 21450 10550 50  0001 C CNN
+F 1 "-5V" H 21465 10623 50  0000 C CNN
+F 2 "" H 21450 10450 50  0001 C CNN
+F 3 "" H 21450 10450 50  0001 C CNN
+	1    21450 10450
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR060
 U 1 1 600223BD
-P 21600 9900
-F 0 "#PWR060" H 21600 9650 50  0001 C CNN
-F 1 "GND" H 21675 9750 50  0000 R CNN
-F 2 "" H 21600 9900 50  0001 C CNN
-F 3 "" H 21600 9900 50  0001 C CNN
-	1    21600 9900
+P 21650 10000
+F 0 "#PWR060" H 21650 9750 50  0001 C CNN
+F 1 "GND" H 21725 9850 50  0000 R CNN
+F 2 "" H 21650 10000 50  0001 C CNN
+F 3 "" H 21650 10000 50  0001 C CNN
+	1    21650 10000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	21600 9900 21400 9900
+	21650 10000 21450 10000
 Wire Wire Line
 	18400 9150 18650 9150
 Wire Wire Line
@@ -297,7 +295,7 @@ U 1 1 6020A02D
 P 13250 5300
 F 0 "Q3" H 13200 5600 50  0000 L CNN
 F 1 "C3M0060065D" H 12750 5500 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown" H 13450 5225 50  0001 L CIN
+F 2 "mylib-footprints:TO-247-3_Horizontal_TabUp" H 13450 5225 50  0001 L CIN
 F 3 "https://www.digikey.com/en/products/detail/cree-wolfspeed/C3M0060065D/12525330" H 13250 5300 50  0001 L CNN
 F 4 "C3M0060065D" H 13250 5300 50  0001 C CNN "PartNumber"
 F 5 "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3" H 13250 5300 50  0001 C CNN "Description"
@@ -329,33 +327,33 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 60313476
-P 21400 9700
+P 21450 9800
 AR Path="/5FF3B238/60313476" Ref="C?"  Part="1" 
 AR Path="/60313476" Ref="C56"  Part="1" 
-F 0 "C56" H 21515 9746 50  0000 L CNN
-F 1 "10uF" H 21515 9655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 21438 9550 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC1206KKX7R8BB106/5195365" H 21400 9700 50  0001 C CNN
-F 4 "25V" H 21515 9609 50  0001 L CNN "Voltage"
-F 5 "CC1206KKX7R8BB106" H 21400 9700 50  0001 C CNN "PartNumber"
-F 6 "10µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 21400 9700 50  0001 C CNN "Description"
-	1    21400 9700
+F 0 "C56" H 21565 9846 50  0000 L CNN
+F 1 "10uF" H 21565 9755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 21488 9650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC1206KKX7R8BB106/5195365" H 21450 9800 50  0001 C CNN
+F 4 "25V" H 21565 9709 50  0001 L CNN "Voltage"
+F 5 "CC1206KKX7R8BB106" H 21450 9800 50  0001 C CNN "PartNumber"
+F 6 "10µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 21450 9800 50  0001 C CNN "Description"
+	1    21450 9800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 60313B61
-P 21400 10100
+P 21450 10200
 AR Path="/5FF3B238/60313B61" Ref="C?"  Part="1" 
 AR Path="/60313B61" Ref="C57"  Part="1" 
-F 0 "C57" H 21515 10146 50  0000 L CNN
-F 1 "10uF" H 21515 10055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 21438 9950 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC1206KKX7R8BB106/5195365" H 21400 10100 50  0001 C CNN
-F 4 "25V" H 21515 10009 50  0001 L CNN "Voltage"
-F 5 "CC1206KKX7R8BB106" H 21400 10100 50  0001 C CNN "PartNumber"
-F 6 "10µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 21400 10100 50  0001 C CNN "Description"
-	1    21400 10100
+F 0 "C57" H 21565 10246 50  0000 L CNN
+F 1 "10uF" H 21565 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 21488 10050 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC1206KKX7R8BB106/5195365" H 21450 10200 50  0001 C CNN
+F 4 "25V" H 21565 10109 50  0001 L CNN "Voltage"
+F 5 "CC1206KKX7R8BB106" H 21450 10200 50  0001 C CNN "PartNumber"
+F 6 "10µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 21450 10200 50  0001 C CNN "Description"
+	1    21450 10200
 	1    0    0    -1  
 $EndComp
 Connection ~ 16850 5800
@@ -874,7 +872,7 @@ U 1 1 609F06D5
 P 6400 8500
 F 0 "D7" H 6550 8300 50  0000 C CNN
 F 1 "MRA4007T3G" H 6550 8400 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 6400 8500 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 6400 8500 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/MRA4007T3G/919869" H 6400 8500 50  0001 C CNN
 F 4 "MRA4007T3G" H 6400 8500 50  0001 C CNN "PartNumber"
 F 5 "Diode Standard 1000V 1A Surface Mount DO-214AC (SMA)" H 6400 8500 50  0001 C CNN "Description"
@@ -1025,7 +1023,7 @@ U 1 1 60135FBE
 P 1900 8150
 F 0 "D3" H 1900 7933 50  0000 C CNN
 F 1 "MRA4007T3G" H 1900 8024 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 1900 8150 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 1900 8150 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/MRA4007T3G/919869" H 1900 8150 50  0001 C CNN
 F 4 "MRA4007T3G" H 1900 8150 50  0001 C CNN "PartNumber"
 F 5 "Diode Standard 1000V 1A Surface Mount DO-214AC (SMA)" H 1900 8150 50  0001 C CNN "Description"
@@ -1038,7 +1036,7 @@ U 1 1 60134F80
 P 1500 8150
 F 0 "D2" H 1500 7933 50  0000 C CNN
 F 1 "MRA4007T3G" H 1500 8024 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 1500 8150 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 1500 8150 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/MRA4007T3G/919869" H 1500 8150 50  0001 C CNN
 F 4 "MRA4007T3G" H 1500 8150 50  0001 C CNN "PartNumber"
 F 5 "Diode Standard 1000V 1A Surface Mount DO-214AC (SMA)" H 1500 8150 50  0001 C CNN "Description"
@@ -1638,12 +1636,12 @@ $EndComp
 Text Notes 4500 7400 0    100  ~ 0
 ICE3PCS01G Controller
 Wire Wire Line
-	21400 10250 21400 10350
+	21450 10350 21450 10450
 Wire Wire Line
-	21400 9450 21400 9550
+	21450 9550 21450 9650
 Text Notes 14200 2100 2    50   ~ 0
 250uH 20A CoolMu inductor
-Connection ~ 11950 11150
+Connection ~ 11950 10800
 $Comp
 L Device:CP1 C?
 U 1 1 6057181F
@@ -1837,78 +1835,78 @@ Wire Notes Line
 	17200 10750 22300 10750
 Wire Notes Line
 	17200 8700 22300 8700
-Text Notes 11150 11050 2    50   ~ 0
+Text Notes 11150 10700 2    50   ~ 0
 +24V bus
 Text Notes 11600 8600 0    100  ~ 0
 +15V/-5V Power supply, 15V ICE3PC02G supply
 $Comp
 L Device:CP1 C?
 U 1 1 60150D96
-P 13600 11650
+P 13600 11300
 AR Path="/5FF3B238/60150D96" Ref="C?"  Part="1" 
 AR Path="/60150D96" Ref="C30"  Part="1" 
-F 0 "C30" H 13715 11696 50  0000 L CNN
-F 1 "330uF" H 13715 11605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 13600 11650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/kemet/A750KS337M1EAAE018/6196447" H 13600 11650 50  0001 C CNN
-F 4 "25V" H 13600 11650 50  0001 C CNN "Voltage"
-F 5 "A750KS337M1EAAE018" H 13600 11650 50  0001 C CNN "PartNumber"
-F 6 "330µF 25V Aluminum - Polymer Capacitors Radial, Can 18mOhm 2000 Hrs @ 105°C" H 13600 11650 50  0001 C CNN "Description"
-	1    13600 11650
+F 0 "C30" H 13715 11346 50  0000 L CNN
+F 1 "330uF" H 13715 11255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 13600 11300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/A750KS337M1EAAE018/6196447" H 13600 11300 50  0001 C CNN
+F 4 "25V" H 13600 11300 50  0001 C CNN "Voltage"
+F 5 "A750KS337M1EAAE018" H 13600 11300 50  0001 C CNN "PartNumber"
+F 6 "330µF 25V Aluminum - Polymer Capacitors Radial, Can 18mOhm 2000 Hrs @ 105°C" H 13600 11300 50  0001 C CNN "Description"
+	1    13600 11300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12900 11150 13150 11150
+	12900 10800 13150 10800
 $Comp
 L Device:C C?
 U 1 1 601AFAA9
-P 13150 11650
+P 13150 11300
 AR Path="/5FF3B238/601AFAA9" Ref="C?"  Part="1" 
 AR Path="/601AFAA9" Ref="C29"  Part="1" 
-F 0 "C29" H 13265 11696 50  0000 L CNN
-F 1 "10uF" H 13265 11605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 13188 11500 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC1206KKX7R8BB106/5195365" H 13150 11650 50  0001 C CNN
-F 4 "25V" H 13265 11559 50  0001 L CNN "Voltage"
-F 5 "CC1206KKX7R8BB106" H 13150 11650 50  0001 C CNN "PartNumber"
-F 6 "10µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 13150 11650 50  0001 C CNN "Description"
-	1    13150 11650
+F 0 "C29" H 13265 11346 50  0000 L CNN
+F 1 "10uF" H 13265 11255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 13188 11150 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC1206KKX7R8BB106/5195365" H 13150 11300 50  0001 C CNN
+F 4 "25V" H 13265 11209 50  0001 L CNN "Voltage"
+F 5 "CC1206KKX7R8BB106" H 13150 11300 50  0001 C CNN "PartNumber"
+F 6 "10µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)" H 13150 11300 50  0001 C CNN "Description"
+	1    13150 11300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13150 11150 13600 11150
-Connection ~ 13150 11150
+	13150 10800 13600 10800
+Connection ~ 13150 10800
 $Comp
 L Regulator_Linear:L7815 U6
 U 1 1 602703AA
-P 12600 11150
-F 0 "U6" H 12600 11392 50  0000 C CNN
-F 1 "L7815ACD2T" H 12600 11301 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 12625 11000 50  0001 L CIN
-F 3 "https://www.digikey.com/en/products/detail/stmicroelectronics/L7815ACD2T-TR/1663423" H 12600 11100 50  0001 C CNN
-F 4 "L7815ACD2T" H 12600 11150 50  0001 C CNN "PartNumber"
-F 5 "Linear Voltage Regulator IC  1 Output  15V 1.5A D2PAK" H 12600 11150 50  0001 C CNN "Description"
-	1    12600 11150
+P 12600 10800
+F 0 "U6" H 12600 11042 50  0000 C CNN
+F 1 "L7815ACD2T" H 12600 10951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 12625 10650 50  0001 L CIN
+F 3 "https://www.digikey.com/en/products/detail/stmicroelectronics/L7815ACD2T-TR/1663423" H 12600 10750 50  0001 C CNN
+F 4 "L7815ACD2T" H 12600 10800 50  0001 C CNN "PartNumber"
+F 5 "Linear Voltage Regulator IC  1 Output  15V 1.5A D2PAK" H 12600 10800 50  0001 C CNN "Description"
+	1    12600 10800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR043
 U 1 1 606763CA
-P 13600 11000
-F 0 "#PWR043" H 13600 10850 50  0001 C CNN
-F 1 "VCC" H 13615 11173 50  0000 C CNN
-F 2 "" H 13600 11000 50  0001 C CNN
-F 3 "" H 13600 11000 50  0001 C CNN
-	1    13600 11000
+P 13600 10650
+F 0 "#PWR043" H 13600 10500 50  0001 C CNN
+F 1 "VCC" H 13615 10823 50  0000 C CNN
+F 2 "" H 13600 10650 50  0001 C CNN
+F 3 "" H 13600 10650 50  0001 C CNN
+	1    13600 10650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13600 11150 13600 11000
-Connection ~ 13600 11150
+	13600 10800 13600 10650
+Connection ~ 13600 10800
 Wire Wire Line
-	12750 10750 13150 10750
+	12750 10400 13150 10400
 Wire Wire Line
-	13150 10750 13150 11150
+	13150 10400 13150 10800
 $Comp
 L power:VCC #PWR018
 U 1 1 6091E5FA
@@ -1921,7 +1919,7 @@ F 3 "" H 5700 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11950 11150 11950 11500
+	11950 10800 11950 11150
 $Comp
 L power:VCC #PWR051
 U 1 1 60E90C5C
@@ -1933,7 +1931,7 @@ F 3 "" H 17750 9000 50  0001 C CNN
 	1    17750 9000
 	1    0    0    -1  
 $EndComp
-Text Notes 13850 10750 2    50   ~ 0
+Text Notes 13850 10400 2    50   ~ 0
 VCC = 15V 
 $Comp
 L Device:R R?
@@ -1990,10 +1988,10 @@ U 1 1 60890F62
 P 12850 4900
 F 0 "L3" V 13040 4900 50  0000 C CNN
 F 1 "250uH" V 12949 4900 50  0000 C CNN
-F 2 "mylib-footprints:D62mm_P32.60mm_x4" H 12850 4900 50  0001 C CNN
-F 3 "https://www.mag-inc.com/Media/Magnetics/Datasheets/0077620A7.pdf" H 12850 4900 50  0001 C CNN
-F 4 "KS250-060A" V 12850 4900 50  0001 C CNN "PartNumber"
-F 5 "Custom 45A 250uH inductor. Use 4 stacked CoolMu 60u cores (KS250-060A or 0077617A7) and make 30 turns with 11x1mm2 emal wire" V 12850 4900 50  0001 C CNN "Description"
+F 2 "mylib-footprints:D62mm_P32.6mm_x2" H 12850 4900 50  0001 C CNN
+F 3 "https://www.mag-inc.com/Media/Magnetics/Datasheets/0058620A2.pdf" H 12850 4900 50  0001 C CNN
+F 4 "0058620A2" V 12850 4900 50  0001 C CNN "PartNumber"
+F 5 "Custom 25A 250uH inductor. Use 2 stacked HighFlux cores (KS250-060A or 0077617A7) and make 22 turns with 2.5mm2 emal wire" V 12850 4900 50  0001 C CNN "Description"
 	1    12850 4900
 	0    -1   -1   0   
 $EndComp
@@ -2078,25 +2076,12 @@ U 1 1 60F902BA
 P 13250 3250
 F 0 "Q2" H 13200 3550 50  0000 L CNN
 F 1 "C3M0060065D" H 12750 3450 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown" H 13450 3175 50  0001 L CIN
+F 2 "mylib-footprints:TO-247-3_Horizontal_TabUp" H 13450 3175 50  0001 L CIN
 F 3 "https://www.digikey.com/en/products/detail/cree-wolfspeed/C3M0060065D/12525330" H 13250 3250 50  0001 L CNN
 F 4 "C3M0060065D" H 13250 3250 50  0001 C CNN "PartNumber"
 F 5 "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3" H 13250 3250 50  0001 C CNN "Description"
 	1    13250 3250
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:L L2
-U 1 1 60F902C6
-P 12850 2850
-F 0 "L2" V 13040 2850 50  0000 C CNN
-F 1 "250uH" V 12949 2850 50  0000 C CNN
-F 2 "mylib-footprints:D62mm_P32.60mm_x4" H 12850 2850 50  0001 C CNN
-F 3 "https://www.mag-inc.com/Media/Magnetics/Datasheets/0077620A7.pdf" H 12850 2850 50  0001 C CNN
-F 4 "KS250-060A" V 12850 2850 50  0001 C CNN "PartNumber"
-F 5 "Custom 45A 250uH inductor. Use 4 stacked CoolMu 60u cores (KS250-060A or 0077617A7) and make 30 turns with 11x1mm2 emal wire" V 12850 2850 50  0001 C CNN "Description"
-	1    12850 2850
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	13150 3750 12550 3750
@@ -2538,53 +2523,47 @@ Connection ~ 20900 2850
 $Comp
 L Device:LED D20
 U 1 1 62ACA5AC
-P 14050 11850
-F 0 "D20" V 14089 11732 50  0000 R CNN
-F 1 "GREEN" V 13998 11732 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 14050 11850 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/lite-on-inc/LTST-S220KGKT/386875" H 14050 11850 50  0001 C CNN
-F 4 "LTST-S220KGKT" H 14050 11850 50  0001 C CNN "PartNumber"
-F 5 "Green 568nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 14050 11850 50  0001 C CNN "Description"
-	1    14050 11850
+P 14050 11500
+F 0 "D20" V 14089 11382 50  0000 R CNN
+F 1 "GREEN" V 13998 11382 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 14050 11500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/lite-on-inc/LTST-S220KGKT/386875" H 14050 11500 50  0001 C CNN
+F 4 "LTST-S220KGKT" H 14050 11500 50  0001 C CNN "PartNumber"
+F 5 "Green 568nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 14050 11500 50  0001 C CNN "Description"
+	1    14050 11500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 62ACA5B8
-P 14050 11400
+P 14050 11050
 AR Path="/5FF3B238/62ACA5B8" Ref="R?"  Part="1" 
 AR Path="/62ACA5B8" Ref="R37"  Part="1" 
-F 0 "R37" H 14120 11446 50  0000 L CNN
-F 1 "10K" H 14120 11355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 13980 11400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241" H 14050 11400 50  0001 C CNN
-F 4 "RC0805JR-0710KL" H 14050 11400 50  0001 C CNN "PartNumber"
-F 5 "10 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film" H 14050 11400 50  0001 C CNN "Description"
-	1    14050 11400
+F 0 "R37" H 14120 11096 50  0000 L CNN
+F 1 "10K" H 14120 11005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 13980 11050 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241" H 14050 11050 50  0001 C CNN
+F 4 "RC0805JR-0710KL" H 14050 11050 50  0001 C CNN "PartNumber"
+F 5 "10 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film" H 14050 11050 50  0001 C CNN "Description"
+	1    14050 11050
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	14050 12150 14050 12000
+	14050 11350 14050 11200
 Wire Wire Line
-	14050 11700 14050 11550
+	14050 10800 14050 10900
 Wire Wire Line
-	14050 11150 14050 11250
+	13600 10800 14050 10800
 Wire Wire Line
-	13600 11150 14050 11150
+	13600 10800 13600 11150
 Wire Wire Line
-	12600 11450 12600 12150
+	13150 10800 13150 11150
 Wire Wire Line
-	13600 11150 13600 11500
+	11950 10800 12300 10800
 Wire Wire Line
-	13150 11150 13150 11500
+	11950 10800 11950 10400
 Wire Wire Line
-	13150 12150 13150 11800
-Wire Wire Line
-	11950 11150 12300 11150
-Wire Wire Line
-	11950 11150 11950 10750
-Wire Wire Line
-	11950 10750 12450 10750
+	11950 10400 12450 10400
 $Comp
 L power:GND #PWR039
 U 1 1 62DF3DCC
@@ -2596,8 +2575,6 @@ F 3 "" H 11950 12150 50  0001 C CNN
 	1    11950 12150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11950 11800 11950 12150
 $Comp
 L power:GND #PWR041
 U 1 1 62E5C929
@@ -2620,8 +2597,6 @@ F 3 "" H 13150 12150 50  0001 C CNN
 	1    13150 12150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13600 12150 13600 11800
 $Comp
 L power:GND #PWR044
 U 1 1 62E5F177
@@ -2788,17 +2763,17 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 635EDD10
-P 11950 11650
+P 11950 11300
 AR Path="/5FF3B238/635EDD10" Ref="C?"  Part="1" 
 AR Path="/635EDD10" Ref="C26"  Part="1" 
-F 0 "C26" H 12100 11700 50  0000 L CNN
-F 1 "0.1uF" H 12100 11600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11988 11500 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874" H 11950 11650 50  0001 C CNN
-F 4 "50V" H 12065 11559 50  0001 L CNN "Voltage"
-F 5 "CC0805KRX7R9BB104" H 11950 11650 50  0001 C CNN "PartNumber"
-F 6 "0.1µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 11950 11650 50  0001 C CNN "Description"
-	1    11950 11650
+F 0 "C26" H 12100 11350 50  0000 L CNN
+F 1 "0.1uF" H 12100 11250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11988 11150 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874" H 11950 11300 50  0001 C CNN
+F 4 "50V" H 12065 11209 50  0001 L CNN "Voltage"
+F 5 "CC0805KRX7R9BB104" H 11950 11300 50  0001 C CNN "PartNumber"
+F 6 "0.1µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 11950 11300 50  0001 C CNN "Description"
+	1    11950 11300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2884,7 +2859,7 @@ U 1 1 63A70F2E
 P 14000 9100
 F 0 "D19" H 14000 8883 50  0000 C CNN
 F 1 "MRA4007T3G" H 14000 8974 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 14000 9100 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 14000 9100 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/MRA4007T3G/919869" H 14000 9100 50  0001 C CNN
 F 4 "MRA4007T3G" H 14000 9100 50  0001 C CNN "PartNumber"
 F 5 "Diode Standard 1000V 1A Surface Mount DO-214AC (SMA)" H 14000 9100 50  0001 C CNN "Description"
@@ -2904,7 +2879,7 @@ U 1 1 63C22EB9
 P 18250 9150
 F 0 "D24" H 18250 8933 50  0000 C CNN
 F 1 "MRA4007T3G" H 18250 9024 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 18250 9150 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA" H 18250 9150 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/MRA4007T3G/919869" H 18250 9150 50  0001 C CNN
 F 4 "MRA4007T3G" H 18250 9150 50  0001 C CNN "PartNumber"
 F 5 "Diode Standard 1000V 1A Surface Mount DO-214AC (SMA)" H 18250 9150 50  0001 C CNN "Description"
@@ -2914,23 +2889,23 @@ $EndComp
 $Comp
 L Device:D_Schottky D?
 U 1 1 63C24D9D
-P 12600 10750
+P 12600 10400
 AR Path="/5FF3B238/63C24D9D" Ref="D?"  Part="1" 
 AR Path="/63C24D9D" Ref="D14"  Part="1" 
-F 0 "D14" H 12600 10967 50  0000 C CNN
-F 1 "1N5819" H 12600 10876 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 12600 10750 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970" H 12600 10750 50  0001 C CNN
-F 4 "1N5819HW-7-F" H 12600 10750 50  0001 C CNN "PartNumber"
-F 5 "Diode Schottky 40V 1A Surface Mount SOD-123" H 12600 10750 50  0001 C CNN "Description"
-	1    12600 10750
+F 0 "D14" H 12600 10617 50  0000 C CNN
+F 1 "1N5819" H 12600 10526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 12600 10400 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970" H 12600 10400 50  0001 C CNN
+F 4 "1N5819HW-7-F" H 12600 10400 50  0001 C CNN "PartNumber"
+F 5 "Diode Schottky 40V 1A Surface Mount SOD-123" H 12600 10400 50  0001 C CNN "Description"
+	1    12600 10400
 	1    0    0    -1  
 $EndComp
-Connection ~ 11500 11150
+Connection ~ 11500 10800
 Wire Wire Line
-	11500 11150 11950 11150
+	11500 10800 11950 10800
 Wire Wire Line
-	11050 11150 11500 11150
+	11050 10800 11500 10800
 $Comp
 L power:GND #PWR037
 U 1 1 62DF3DC2
@@ -2954,42 +2929,38 @@ F 3 "" H 11050 12150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11050 11500 11050 11150
-Wire Wire Line
-	11050 12150 11050 11800
+	11050 11150 11050 10800
 $Comp
 L Diode:SM6T7V5A D?
 U 1 1 60BEEAC1
-P 11050 11650
+P 11050 11300
 AR Path="/60099F98/60BEEAC1" Ref="D?"  Part="1" 
 AR Path="/60BEEAC1" Ref="D13"  Part="1" 
-F 0 "D13" V 10900 11550 50  0000 C CNN
-F 1 "SMCJ30A" H 11050 11800 50  0000 C CNN
-F 2 "Diode_SMD:D_SMC" H 11050 11450 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/littelfuse-inc/SMCJ30A/762400" H 11000 11650 50  0001 C CNN
-F 4 "SMCJ30A" H 11050 11650 50  0001 C CNN "PartNumber"
-F 5 "48.4V Clamp 31A Ipp Tvs Diode Surface Mount DO-214AB (SMCJ)" H 11050 11650 50  0001 C CNN "Description"
-	1    11050 11650
+F 0 "D13" V 10900 11200 50  0000 C CNN
+F 1 "SMCJ30A" H 11050 11450 50  0000 C CNN
+F 2 "Diode_SMD:D_SMC" H 11050 11100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/littelfuse-inc/SMCJ30A/762400" H 11000 11300 50  0001 C CNN
+F 4 "SMCJ30A" H 11050 11300 50  0001 C CNN "PartNumber"
+F 5 "48.4V Clamp 31A Ipp Tvs Diode Surface Mount DO-214AB (SMCJ)" H 11050 11300 50  0001 C CNN "Description"
+	1    11050 11300
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	11500 11150 11500 11500
-Wire Wire Line
-	11500 11800 11500 12150
+	11500 10800 11500 11150
 $Comp
 L Device:CP1 C?
 U 1 1 60122425
-P 11500 11650
+P 11500 11300
 AR Path="/5FF3B238/60122425" Ref="C?"  Part="1" 
 AR Path="/60122425" Ref="C24"  Part="1" 
-F 0 "C24" H 11615 11696 50  0000 L CNN
-F 1 "22uF" H 11615 11605 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 11500 11650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/kemet/A759BQ226M1VAAE080/6196509" H 11500 11650 50  0001 C CNN
-F 4 "50V" H 11500 11650 50  0001 C CNN "Voltage"
-F 5 "A768EB226M1HLAE048" H 11500 11650 50  0001 C CNN "PartNumber"
-F 6 "22µF 35V Aluminum - Polymer Capacitors Radial, Can 80mOhm 2000 Hrs @ 125°C" H 11500 11650 50  0001 C CNN "Description"
-	1    11500 11650
+F 0 "C24" H 11615 11346 50  0000 L CNN
+F 1 "22uF" H 11615 11255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 11500 11300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/A759BQ226M1VAAE080/6196509" H 11500 11300 50  0001 C CNN
+F 4 "50V" H 11500 11300 50  0001 C CNN "Voltage"
+F 5 "A768EB226M1HLAE048" H 11500 11300 50  0001 C CNN "PartNumber"
+F 6 "22µF 35V Aluminum - Polymer Capacitors Radial, Can 80mOhm 2000 Hrs @ 125°C" H 11500 11300 50  0001 C CNN "Description"
+	1    11500 11300
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -3003,52 +2974,28 @@ F 3 "" H 10650 12150 50  0001 C CNN
 	1    10650 12150
 	1    0    0    -1  
 $EndComp
-Text Notes 10250 11800 2    50   ~ 0
+Text Notes 10250 11750 2    50   ~ 0
 GND
-Text Notes 10250 11700 2    50   ~ 0
+Text Notes 10250 11550 2    50   ~ 0
 +24V
 Wire Wire Line
-	10650 11250 10650 11150
-Wire Wire Line
-	10650 12150 10650 11750
-Wire Wire Line
-	10650 11650 10650 11550
-Wire Wire Line
-	10550 11650 10650 11650
+	10650 10900 10650 10800
 $Comp
 L Device:Fuse F2
 U 1 1 60B43FA5
-P 10650 11400
-F 0 "F2" H 10710 11446 50  0000 L CNN
-F 1 "1A" H 10710 11355 50  0000 L CNN
-F 2 "Fuse:Fuse_2920_7451Metric" V 10580 11400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/bel-fuse-inc/0ZCF0100AF2A/6210541" H 10650 11400 50  0001 C CNN
-F 4 "0ZCF0100AF2A" H 10650 11400 50  0001 C CNN "PartNumber"
-F 5 "Polymeric PTC Resettable Fuse 60V 1A Ih Surface Mount 2920 (7351 Metric), Concave" H 10650 11400 50  0001 C CNN "Description"
-	1    10650 11400
+P 10650 11050
+F 0 "F2" H 10710 11096 50  0000 L CNN
+F 1 "1A" H 10710 11005 50  0000 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" V 10580 11050 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/bel-fuse-inc/0ZCF0100AF2A/6210541" H 10650 11050 50  0001 C CNN
+F 4 "0ZCF0100AF2A" H 10650 11050 50  0001 C CNN "PartNumber"
+F 5 "Polymeric PTC Resettable Fuse 60V 1A Ih Surface Mount 2920 (7351 Metric), Concave" H 10650 11050 50  0001 C CNN "Description"
+	1    10650 11050
 	1    0    0    -1  
 $EndComp
+Connection ~ 11050 10800
 Wire Wire Line
-	10650 11750 10550 11750
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 60FE168E
-P 10350 11750
-F 0 "J2" H 10350 11550 50  0000 C CNN
-F 1 "Power in" H 10300 11900 50  0000 C CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 10350 11750 50  0001 C CNN
-F 3 "http://www.klsele.com/products/Terminal-blocks/560/278.html" H 10350 11750 50  0001 C CNN
-F 4 "KLS2-308V-2.54-02P-4S" H 10350 11750 50  0001 C CNN "PartNumber"
-F 5 "2 Position Wire to Board Terminal Block Horizontal with Board 0.100\" (2.54mm) Through Hole" H 10350 11750 50  0001 C CNN "Description"
-	1    10350 11750
-	-1   0    0    1   
-$EndComp
-Connection ~ 11050 11150
-Wire Wire Line
-	10650 11150 11050 11150
-Connection ~ 10650 11150
-Wire Wire Line
-	10650 9100 10650 11150
+	10650 10800 11050 10800
 $Comp
 L Device:D_Bridge_+AA- D11
 U 1 1 63DFE660
@@ -3899,7 +3846,7 @@ F 3 "https://www.digikey.com/en/products/detail/schurter-inc/SUT-H-6332-50A00-PG
 F 4 "SUT-H-6332-50A00-PGT-TT-NI" H 2100 5050 50  0001 C CNN "PartNumber"
 F 5 "50A 250V AC 70V DC Fuse Cartridge, Ceramic Through Hole 3AB, 3AG, 1/4\" x 1-1/4\" (Axial)" H 2100 5050 50  0001 C CNN "Description"
 	1    2100 5050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2100 5300 2100 5200
@@ -3908,38 +3855,24 @@ Wire Wire Line
 $Comp
 L Device:GDT_2pin GD1
 U 1 1 6324432B
-P 2600 5400
-F 0 "GD1" H 2769 5446 50  0000 L CNN
-F 1 "SG500Q" H 2769 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1812_4532Metric" V 2600 5400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/littelfuse-inc/SG500Q/4286095" V 2600 5400 50  0001 C CNN
-F 4 "SG500Q" H 2600 5400 50  0001 C CNN "PartNumber"
-F 5 "Gas Discharge Tube 500V 1000A (1kA)  2 Pole Surface Mount" H 2600 5400 50  0001 C CNN "Description"
-	1    2600 5400
+P 2550 5000
+F 0 "GD1" H 2719 5046 50  0000 L CNN
+F 1 "SG500Q" H 2719 4955 50  0000 L CNN
+F 2 "mylib-footprints:GDT_1812" V 2550 5000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/littelfuse-inc/SG500Q/4286095" V 2550 5000 50  0001 C CNN
+F 4 "SG500Q" H 2550 5000 50  0001 C CNN "PartNumber"
+F 5 "Gas Discharge Tube 500V 1000A (1kA)  2 Pole Surface Mount" H 2550 5000 50  0001 C CNN "Description"
+	1    2550 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 6050 2600 5600
-Wire Wire Line
-	2600 6050 3150 6050
-Wire Wire Line
-	2600 4750 2600 5200
-Wire Wire Line
-	2600 4750 3150 4750
-Wire Wire Line
-	2600 4750 2100 4750
-Connection ~ 2600 4750
-Wire Wire Line
-	2600 6050 2100 6050
-Wire Wire Line
 	2100 5500 2100 6050
-Connection ~ 2600 6050
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 63585C8A
 P 21950 4300
 F 0 "J3" H 21900 4450 50  0000 L CNN
-F 1 "Weidmueller 2453690000" V 22100 3800 50  0000 L CNN
+F 1 "Weidmueller 2453690000" V 21950 3150 50  0000 L CNN
 F 2 "mylib-footprints:Weidmueller_2453690000" H 21950 4300 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/weidm%C3%BCller/2453690000/9637690" H 21950 4300 50  0001 C CNN
 F 4 "2453690000" H 21950 4300 50  0001 C CNN "PartNumber"
@@ -4141,7 +4074,7 @@ Wire Notes Line
 	950  12950 9450 12950
 Wire Notes Line
 	9450 7500 9450 12950
-Text GLabel 6800 12500 2    50   Input ~ 0
+Text GLabel 6750 12500 2    50   Input ~ 0
 PGOOD_SIGNAL-
 Wire Wire Line
 	6350 12000 6250 12000
@@ -4196,9 +4129,6 @@ Wire Wire Line
 	5850 12500 6050 12500
 Wire Wire Line
 	6250 12400 6250 12500
-Connection ~ 6250 12500
-Wire Wire Line
-	6250 12500 6800 12500
 Wire Wire Line
 	6050 12400 6050 12500
 Connection ~ 6050 12500
@@ -4261,4 +4191,114 @@ F 6 "1.5µF Film Capacitor  630V Polypropylene (PP), Metallized Radial" H 12550 
 $EndComp
 Text Notes 11100 9000 2    50   ~ 0
 +24V bus
+Text Notes 15050 9000 2    50   ~ 0
++24V bus converted
+Wire Wire Line
+	6750 12500 6250 12500
+Connection ~ 6250 12500
+$Comp
+L Device:L L2
+U 1 1 6015DB1F
+P 12850 2850
+F 0 "L2" V 13040 2850 50  0000 C CNN
+F 1 "250uH" V 12949 2850 50  0000 C CNN
+F 2 "mylib-footprints:D62mm_P32.6mm_x2" H 12850 2850 50  0001 C CNN
+F 3 "https://www.mag-inc.com/Media/Magnetics/Datasheets/0058620A2.pdf" H 12850 2850 50  0001 C CNN
+F 4 "0058620A2" V 12850 2850 50  0001 C CNN "PartNumber"
+F 5 "Custom 25A 250uH inductor. Use 2 stacked HighFlux cores (KS250-060A or 0077617A7) and make 22 turns with 2.5mm2 emal wire" V 12850 2850 50  0001 C CNN "Description"
+	1    12850 2850
+	0    -1   -1   0   
+$EndComp
+Text Notes 22250 4350 2    50   ~ 0
++400V
+Text Notes 22200 4450 2    50   ~ 0
+GND
+Wire Wire Line
+	20450 9600 20450 9750
+Wire Wire Line
+	2100 6050 2550 6050
+Wire Wire Line
+	2100 4750 2550 4750
+$Comp
+L Device:GDT_2pin GD2
+U 1 1 60315628
+P 2550 5800
+F 0 "GD2" H 2719 5846 50  0000 L CNN
+F 1 "SG500Q" H 2719 5755 50  0000 L CNN
+F 2 "mylib-footprints:GDT_1812" V 2550 5800 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/littelfuse-inc/SG500Q/4286095" V 2550 5800 50  0001 C CNN
+F 4 "SG500Q" H 2550 5800 50  0001 C CNN "PartNumber"
+F 5 "Gas Discharge Tube 500V 1000A (1kA)  2 Pole Surface Mount" H 2550 5800 50  0001 C CNN "Description"
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5600 2550 5400
+Wire Wire Line
+	3150 5400 2550 5400
+Connection ~ 2550 5400
+Wire Wire Line
+	2550 5400 2550 5200
+Wire Wire Line
+	2550 6000 2550 6050
+Connection ~ 2550 6050
+Wire Wire Line
+	2550 6050 3150 6050
+Wire Wire Line
+	2550 4800 2550 4750
+Connection ~ 2550 4750
+Wire Wire Line
+	2550 4750 3150 4750
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 60184371
+P 10350 11700
+F 0 "J2" H 10268 11275 50  0000 C CNN
+F 1 "Power in" H 10268 11366 50  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5268-04A_1x04_P2.50mm_Horizontal" H 10350 11700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/molex/0022057045/403343" H 10350 11700 50  0001 C CNN
+F 4 "0022057045" H 10350 11700 50  0001 C CNN "PartNumber"
+F 5 "Connector Header Through Hole, Right Angle 4 position 0.098\" (2.50mm)" H 10350 11700 50  0001 C CNN "Description"
+	1    10350 11700
+	-1   0    0    1   
+$EndComp
+Text Notes 10250 11850 2    50   ~ 0
+GND
+Text Notes 10250 11650 2    50   ~ 0
++24V
+Wire Wire Line
+	10550 11600 10650 11600
+Wire Wire Line
+	10550 11500 10650 11500
+Wire Wire Line
+	10650 11500 10650 11600
+Wire Wire Line
+	10550 11700 10650 11700
+Wire Wire Line
+	10650 11700 10650 11800
+Wire Wire Line
+	10550 11800 10650 11800
+Wire Wire Line
+	10650 12150 10650 11800
+Connection ~ 10650 11800
+Wire Wire Line
+	10650 11500 10650 11200
+Connection ~ 10650 11500
+Wire Wire Line
+	11050 11450 11050 12150
+Wire Wire Line
+	11500 11450 11500 12150
+Wire Wire Line
+	11950 11450 11950 12150
+Wire Wire Line
+	12600 11100 12600 12150
+Wire Wire Line
+	13150 11450 13150 12150
+Wire Wire Line
+	13600 11450 13600 12150
+Wire Wire Line
+	14050 11650 14050 12150
+Wire Wire Line
+	10650 10800 10650 9100
+Connection ~ 10650 10800
 $EndSCHEMATC
