@@ -589,8 +589,8 @@ Connection ~ 8800 9200
 Wire Wire Line
 	6400 9300 7600 9300
 Connection ~ 7600 9300
-Text Notes 9200 8450 3    50   ~ 0
-+435V threshold
+Text Notes 9150 7800 3    50   ~ 0
++433V threshold overvoltage protection
 Text Notes 6550 9400 0    50   ~ 0
 +2.5V threshold
 $Comp
@@ -626,10 +626,6 @@ Wire Wire Line
 	4550 10500 4550 10400
 Wire Wire Line
 	4550 10100 4550 9600
-Text GLabel 11850 6150 3    50   Input ~ 0
-CS2
-Text GLabel 7100 8900 2    50   Input ~ 0
-CS2
 $Comp
 L Device:R R?
 U 1 1 6063926B
@@ -679,8 +675,6 @@ Wire Wire Line
 Text GLabel 7100 8800 2    50   Input ~ 0
 CS1
 Wire Wire Line
-	6400 8900 7100 8900
-Wire Wire Line
 	7100 8800 7050 8800
 Wire Wire Line
 	5200 8250 5000 8250
@@ -729,8 +723,8 @@ Wire Wire Line
 	4900 10500 4900 10400
 Text Notes 5500 10000 2    50   ~ 0
 Freq = 90kHz
-Text Notes 8000 8400 3    50   ~ 0
-+403V threshold
+Text Notes 7950 7900 3    50   ~ 0
++403V threshold (stabilization)
 $Comp
 L Device:R R?
 U 1 1 608E8272
@@ -1010,10 +1004,10 @@ AR Path="/5FF3B238/6013675E" Ref="R?"  Part="1"
 AR Path="/6013675E" Ref="R4"  Part="1" 
 F 0 "R4" H 1750 10300 50  0000 L CNN
 F 1 "47.5K" H 1750 10400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1630 10250 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0747K5L/727975" H 1700 10250 50  0001 C CNN
-F 4 "RC0805FR-0747K5L" H 1700 10250 50  0001 C CNN "PartNumber"
-F 5 "10 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film" H 1700 10250 50  0001 C CNN "Description"
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1630 10250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0747K5L/728933" H 1700 10250 50  0001 C CNN
+F 4 "RC1206FR-0747K5L" H 1700 10250 50  0001 C CNN "PartNumber"
+F 5 "47.5 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)  Thick Film" H 1700 10250 50  0001 C CNN "Description"
 	1    1700 10250
 	-1   0    0    1   
 $EndComp
@@ -2801,9 +2795,6 @@ Wire Wire Line
 	14600 9750 14600 10100
 Wire Wire Line
 	15050 10100 15550 10100
-Wire Wire Line
-	14250 9100 14600 9100
-Connection ~ 14600 9100
 Text Notes 13550 9050 2    50   ~ 0
 24V/24V isolated DC/DC
 $Comp
@@ -2839,13 +2830,6 @@ Wire Wire Line
 Wire Wire Line
 	15050 9650 15050 9500
 Wire Wire Line
-	15050 9100 15050 9200
-Wire Wire Line
-	15150 9100 15050 9100
-Wire Wire Line
-	14600 9100 15050 9100
-Connection ~ 15050 9100
-Wire Wire Line
 	15050 10100 14600 10100
 Connection ~ 15050 10100
 Connection ~ 14600 10100
@@ -2853,24 +2837,6 @@ Wire Wire Line
 	12350 9800 12350 10150
 Wire Wire Line
 	11900 10150 11900 9750
-$Comp
-L Device:D D19
-U 1 1 63A70F2E
-P 14000 9100
-F 0 "D19" H 14000 8883 50  0000 C CNN
-F 1 "MRA4007T3G" H 14000 8974 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 14000 9100 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/MRA4007T3G/919869" H 14000 9100 50  0001 C CNN
-F 4 "MRA4007T3G" H 14000 9100 50  0001 C CNN "PartNumber"
-F 5 "Diode Standard 1000V 1A Surface Mount DO-214AC (SMA)" H 14000 9100 50  0001 C CNN "Description"
-	1    14000 9100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14250 9100 14150 9100
-Connection ~ 14250 9100
-Wire Wire Line
-	13850 9100 13750 9100
 Wire Wire Line
 	13750 10100 14250 10100
 $Comp
@@ -3088,8 +3054,6 @@ Wire Wire Line
 	10150 6200 10150 6150
 Wire Wire Line
 	11450 5800 11450 6150
-Wire Wire Line
-	11850 5800 11850 6150
 Wire Wire Line
 	11850 5600 11850 5800
 Wire Wire Line
@@ -3868,10 +3832,10 @@ $EndComp
 Wire Wire Line
 	2100 5500 2100 6050
 $Comp
-L Connector:Screw_Terminal_01x02 J3
+L Connector:Screw_Terminal_01x02 J6
 U 1 1 63585C8A
 P 21950 4300
-F 0 "J3" H 21900 4450 50  0000 L CNN
+F 0 "J6" H 21900 4450 50  0000 L CNN
 F 1 "Weidmueller 2453690000" V 21950 3150 50  0000 L CNN
 F 2 "mylib-footprints:Weidmueller_2453690000" H 21950 4300 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/weidm%C3%BCller/2453690000/9637690" H 21950 4300 50  0001 C CNN
@@ -4250,10 +4214,10 @@ Connection ~ 2550 4750
 Wire Wire Line
 	2550 4750 3150 4750
 $Comp
-L Connector:Screw_Terminal_01x04 J2
+L Connector:Screw_Terminal_01x04 J5
 U 1 1 60184371
 P 10350 11700
-F 0 "J2" H 10268 11275 50  0000 C CNN
+F 0 "J5" H 10268 11275 50  0000 C CNN
 F 1 "Power in" H 10268 11366 50  0000 C CNN
 F 2 "Connector_Molex:Molex_SPOX_5268-04A_1x04_P2.50mm_Horizontal" H 10350 11700 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/molex/0022057045/403343" H 10350 11700 50  0001 C CNN
@@ -4301,4 +4265,114 @@ Wire Wire Line
 Wire Wire Line
 	10650 10800 10650 9100
 Connection ~ 10650 10800
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 6012F651
+P 8850 11600
+F 0 "J2" H 8930 11592 50  0000 L CNN
+F 1 "PGood" H 8930 11501 50  0000 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5268-02A_1x02_P2.50mm_Horizontal" H 8850 11600 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/molex/0022057025/403341" H 8850 11600 50  0001 C CNN
+F 4 "0022057025" H 8850 11600 50  0001 C CNN "PartNumber"
+F 5 "Connector Header Through Hole, Right Angle 2 position 0.098\" (2.50mm)" H 8850 11600 50  0001 C CNN "Description"
+	1    8850 11600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 11700 0    50   Input ~ 0
+PGOOD_SIGNAL+
+Wire Wire Line
+	8650 11600 8550 11600
+Text GLabel 8550 11600 0    50   Input ~ 0
+PGOOD_SIGNAL-
+Wire Wire Line
+	8650 11700 8550 11700
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 601E08DC
+P 8850 11900
+F 0 "J3" H 8930 11892 50  0000 L CNN
+F 1 "PGood" H 8930 11801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5268-02A_1x02_P2.50mm_Horizontal" H 8850 11900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/molex/0022057025/403341" H 8850 11900 50  0001 C CNN
+F 4 "0022057025" H 8850 11900 50  0001 C CNN "PartNumber"
+F 5 "Connector Header Through Hole, Right Angle 2 position 0.098\" (2.50mm)" H 8850 11900 50  0001 C CNN "Description"
+	1    8850 11900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 11900 8550 11900
+Wire Wire Line
+	8650 12000 8550 12000
+Text GLabel 8550 12300 0    50   Input ~ 0
+BOFO_ENBL+
+Text GLabel 8550 12200 0    50   Input ~ 0
+BOFO_ENBL-
+Text GLabel 8550 12000 0    50   Input ~ 0
+PFC_ENBL+
+Text GLabel 8550 11900 0    50   Input ~ 0
+PFC_ENBL-
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 6028F8FA
+P 8850 12200
+F 0 "J4" H 8930 12192 50  0000 L CNN
+F 1 "PGood" H 8930 12101 50  0000 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5268-02A_1x02_P2.50mm_Horizontal" H 8850 12200 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/molex/0022057025/403341" H 8850 12200 50  0001 C CNN
+F 4 "0022057025" H 8850 12200 50  0001 C CNN "PartNumber"
+F 5 "Connector Header Through Hole, Right Angle 2 position 0.098\" (2.50mm)" H 8850 12200 50  0001 C CNN "Description"
+	1    8850 12200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 12200 8550 12200
+Wire Wire Line
+	8650 12300 8550 12300
+Text Notes 8050 7750 3    50   ~ 0
++305V VB_OK threshold (1.89V ref)
+Text Notes 3100 10000 1    50   ~ 0
++1.89V threshold
+$Comp
+L power:GND #PWR0101
+U 1 1 603522A4
+P 7300 8950
+F 0 "#PWR0101" H 7300 8700 50  0001 C CNN
+F 1 "GND" H 7375 8800 50  0000 R CNN
+F 2 "" H 7300 8950 50  0001 C CNN
+F 3 "" H 7300 8950 50  0001 C CNN
+	1    7300 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 8900 7300 8950
+Wire Wire Line
+	6400 8900 7300 8900
+$Comp
+L Device:D D19
+U 1 1 63A70F2E
+P 14000 9100
+F 0 "D19" H 14000 8883 50  0000 C CNN
+F 1 "MRA4007T3G" H 14000 8974 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 14000 9100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/on-semiconductor/MRA4007T3G/919869" H 14000 9100 50  0001 C CNN
+F 4 "MRA4007T3G" H 14000 9100 50  0001 C CNN "PartNumber"
+F 5 "Diode Standard 1000V 1A Surface Mount DO-214AC (SMA)" H 14000 9100 50  0001 C CNN "Description"
+	1    14000 9100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14150 9100 14250 9100
+Connection ~ 14250 9100
+Wire Wire Line
+	14250 9100 14600 9100
+Connection ~ 14600 9100
+Wire Wire Line
+	14600 9100 15050 9100
+Wire Wire Line
+	15050 9200 15050 9100
+Connection ~ 15050 9100
+Wire Wire Line
+	15050 9100 15150 9100
+Wire Wire Line
+	13850 9100 13750 9100
 $EndSCHEMATC
