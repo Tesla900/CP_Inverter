@@ -18,8 +18,8 @@ L Device:R R?
 U 1 1 5FF9D38C
 P 13800 5300
 AR Path="/5FF3B238/5FF9D38C" Ref="R?"  Part="1" 
-AR Path="/5FF9D38C" Ref="R36"  Part="1" 
-F 0 "R36" V 13900 5200 50  0000 L CNN
+AR Path="/5FF9D38C" Ref="R38"  Part="1" 
+F 0 "R38" V 13900 5200 50  0000 L CNN
 F 1 "0.5R" V 13700 5200 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 13730 5300 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RL2512JK-070R5L/5925490" H 13800 5300 50  0001 C CNN
@@ -33,8 +33,8 @@ L Device:R R?
 U 1 1 5FFB950E
 P 13550 5550
 AR Path="/5FF3B238/5FFB950E" Ref="R?"  Part="1" 
-AR Path="/5FFB950E" Ref="R34"  Part="1" 
-F 0 "R34" V 13650 5500 50  0000 L CNN
+AR Path="/5FFB950E" Ref="R36"  Part="1" 
+F 0 "R36" V 13650 5500 50  0000 L CNN
 F 1 "10K" V 13450 5500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13480 5550 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241" H 13550 5550 50  0001 C CNN
@@ -53,8 +53,8 @@ L Device:R R?
 U 1 1 5FFD51BB
 P 20550 9950
 AR Path="/5FF3B238/5FFD51BB" Ref="R?"  Part="1" 
-AR Path="/5FFD51BB" Ref="R41"  Part="1" 
-F 0 "R41" V 20600 10050 50  0000 L CNN
+AR Path="/5FFD51BB" Ref="R43"  Part="1" 
+F 0 "R43" V 20600 10050 50  0000 L CNN
 F 1 "0.5R" V 20600 9650 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 20480 9950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RL2512JK-070R5L/5925490" H 20550 9950 50  0001 C CNN
@@ -68,8 +68,8 @@ L Device:R R?
 U 1 1 5FFD803B
 P 20550 10050
 AR Path="/5FF3B238/5FFD803B" Ref="R?"  Part="1" 
-AR Path="/5FFD803B" Ref="R42"  Part="1" 
-F 0 "R42" V 20600 10150 50  0000 L CNN
+AR Path="/5FFD803B" Ref="R44"  Part="1" 
+F 0 "R44" V 20600 10150 50  0000 L CNN
 F 1 "0.5R" V 20600 9750 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 20480 10050 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RL2512JK-070R5L/5925490" H 20550 10050 50  0001 C CNN
@@ -243,8 +243,8 @@ L Device:R R?
 U 1 1 600B80D1
 P 18400 9950
 AR Path="/5FF3B238/600B80D1" Ref="R?"  Part="1" 
-AR Path="/600B80D1" Ref="R40"  Part="1" 
-F 0 "R40" V 18500 9900 50  0000 L CNN
+AR Path="/600B80D1" Ref="R42"  Part="1" 
+F 0 "R42" V 18500 9900 50  0000 L CNN
 F 1 "100R" V 18300 9850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 18330 9950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100RL/727543" H 18400 9950 50  0001 C CNN
@@ -411,8 +411,8 @@ L Device:R R?
 U 1 1 5FFBD91B
 P 11650 5600
 AR Path="/5FF3B238/5FFBD91B" Ref="R?"  Part="1" 
-AR Path="/5FFBD91B" Ref="R31"  Part="1" 
-F 0 "R31" V 11600 5850 50  0000 L CNN
+AR Path="/5FFBD91B" Ref="R33"  Part="1" 
+F 0 "R33" V 11600 5850 50  0000 L CNN
 F 1 "0.009R" V 11750 5500 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 11580 5600 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_SANYEAR-SY2512CFR009_C457123.html" H 11650 5600 50  0001 C CNN
@@ -426,8 +426,8 @@ L Device:R R?
 U 1 1 5FFEDA29
 P 11650 5800
 AR Path="/5FF3B238/5FFEDA29" Ref="R?"  Part="1" 
-AR Path="/5FFEDA29" Ref="R32"  Part="1" 
-F 0 "R32" V 11600 6050 50  0000 L CNN
+AR Path="/5FFEDA29" Ref="R34"  Part="1" 
+F 0 "R34" V 11600 6050 50  0000 L CNN
 F 1 "0.009R" V 11750 5700 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 11580 5800 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_SANYEAR-SY2512CFR009_C457123.html" H 11650 5800 50  0001 C CNN
@@ -1755,8 +1755,8 @@ L Device:R R?
 U 1 1 6081EC76
 P 15300 9100
 AR Path="/5FF3B238/6081EC76" Ref="R?"  Part="1" 
-AR Path="/6081EC76" Ref="R39"  Part="1" 
-F 0 "R39" V 15200 9050 50  0000 L CNN
+AR Path="/6081EC76" Ref="R41"  Part="1" 
+F 0 "R41" V 15200 9050 50  0000 L CNN
 F 1 "220R" V 15400 9000 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 15230 9100 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC2512JK-07220RL/5922529" H 15300 9100 50  0001 C CNN
@@ -1919,8 +1919,8 @@ L Device:R R?
 U 1 1 60E96844
 P 20900 4750
 AR Path="/5FF3B238/60E96844" Ref="R?"  Part="1" 
-AR Path="/60E96844" Ref="R45"  Part="1" 
-F 0 "R45" H 20970 4796 50  0000 L CNN
+AR Path="/60E96844" Ref="R47"  Part="1" 
+F 0 "R47" H 20970 4796 50  0000 L CNN
 F 1 "1M" H 20970 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 20830 4750 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388" H 20900 4750 50  0001 C CNN
@@ -1934,8 +1934,8 @@ L Device:R R?
 U 1 1 60E96850
 P 20900 4350
 AR Path="/5FF3B238/60E96850" Ref="R?"  Part="1" 
-AR Path="/60E96850" Ref="R44"  Part="1" 
-F 0 "R44" H 20970 4396 50  0000 L CNN
+AR Path="/60E96850" Ref="R46"  Part="1" 
+F 0 "R46" H 20970 4396 50  0000 L CNN
 F 1 "1M" H 20970 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 20830 4350 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388" H 20900 4350 50  0001 C CNN
@@ -1949,8 +1949,8 @@ L Device:R R?
 U 1 1 60E9685C
 P 20900 3950
 AR Path="/5FF3B238/60E9685C" Ref="R?"  Part="1" 
-AR Path="/60E9685C" Ref="R43"  Part="1" 
-F 0 "R43" H 20970 3996 50  0000 L CNN
+AR Path="/60E9685C" Ref="R45"  Part="1" 
+F 0 "R45" H 20970 3996 50  0000 L CNN
 F 1 "1M" H 20970 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 20830 3950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388" H 20900 3950 50  0001 C CNN
@@ -2006,8 +2006,8 @@ L Device:R R?
 U 1 1 60F90293
 P 13800 3250
 AR Path="/5FF3B238/60F90293" Ref="R?"  Part="1" 
-AR Path="/60F90293" Ref="R35"  Part="1" 
-F 0 "R35" V 13900 3150 50  0000 L CNN
+AR Path="/60F90293" Ref="R37"  Part="1" 
+F 0 "R37" V 13900 3150 50  0000 L CNN
 F 1 "0.5R" V 13700 3150 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 13730 3250 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RL2512JK-070R5L/5925490" H 13800 3250 50  0001 C CNN
@@ -2021,8 +2021,8 @@ L Device:R R?
 U 1 1 60F9029F
 P 13550 3500
 AR Path="/5FF3B238/60F9029F" Ref="R?"  Part="1" 
-AR Path="/60F9029F" Ref="R33"  Part="1" 
-F 0 "R33" V 13650 3450 50  0000 L CNN
+AR Path="/60F9029F" Ref="R35"  Part="1" 
+F 0 "R35" V 13650 3450 50  0000 L CNN
 F 1 "10K" V 13450 3450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13480 3500 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241" H 13550 3500 50  0001 C CNN
@@ -2506,8 +2506,8 @@ L Device:R R?
 U 1 1 62ACA5B8
 P 14050 11050
 AR Path="/5FF3B238/62ACA5B8" Ref="R?"  Part="1" 
-AR Path="/62ACA5B8" Ref="R37"  Part="1" 
-F 0 "R37" H 14120 11096 50  0000 L CNN
+AR Path="/62ACA5B8" Ref="R39"  Part="1" 
+F 0 "R39" H 14120 11096 50  0000 L CNN
 F 1 "10K" H 14120 11005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13980 11050 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241" H 14050 11050 50  0001 C CNN
@@ -2789,8 +2789,8 @@ L Device:R R?
 U 1 1 63847453
 P 15050 9350
 AR Path="/5FF3B238/63847453" Ref="R?"  Part="1" 
-AR Path="/63847453" Ref="R38"  Part="1" 
-F 0 "R38" H 15120 9396 50  0000 L CNN
+AR Path="/63847453" Ref="R40"  Part="1" 
+F 0 "R40" H 15120 9396 50  0000 L CNN
 F 1 "10K" H 15120 9305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 14980 9350 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-0710KL/728241" H 15050 9350 50  0001 C CNN
@@ -3631,11 +3631,11 @@ F 5 "240V 1.75kA Varistor 1 Circuit Through Hole Disc 7mm" H 3650 5150 50  0001 
 	1    3650 5150
 	1    0    0    -1  
 $EndComp
-Text Notes 1650 5350 2    50   ~ 0
+Text Notes 1650 5550 2    50   ~ 0
 N
 Text Notes 1650 5450 2    50   ~ 0
 Earth
-Text Notes 1650 5550 2    50   ~ 0
+Text Notes 1650 5350 2    50   ~ 0
 L
 $Comp
 L Device:C C?
@@ -4375,4 +4375,143 @@ Wire Wire Line
 	2000 5300 2100 5300
 Wire Wire Line
 	2100 5300 2100 5200
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 601E08CE
+P 18000 11500
+F 0 "H1" H 18100 11546 50  0000 L CNN
+F 1 "MountingHole" H 18100 11455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 18000 11500 50  0001 C CNN
+F 3 "~" H 18000 11500 50  0001 C CNN
+	1    18000 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 601E2C07
+P 18000 12000
+F 0 "H2" H 18100 12046 50  0000 L CNN
+F 1 "MountingHole" H 18100 11955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 18000 12000 50  0001 C CNN
+F 3 "~" H 18000 12000 50  0001 C CNN
+	1    18000 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 601E4935
+P 19000 11500
+F 0 "H3" H 19100 11546 50  0000 L CNN
+F 1 "MountingHole" H 19100 11455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 19000 11500 50  0001 C CNN
+F 3 "~" H 19000 11500 50  0001 C CNN
+	1    19000 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 601E5454
+P 19000 12000
+F 0 "H4" H 19100 12046 50  0000 L CNN
+F 1 "MountingHole" H 19100 11955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 19000 12000 50  0001 C CNN
+F 3 "~" H 19000 12000 50  0001 C CNN
+	1    19000 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6023C1AB
+P 20000 11500
+F 0 "H5" H 20100 11546 50  0000 L CNN
+F 1 "MountingHole" H 20100 11455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 20000 11500 50  0001 C CNN
+F 3 "~" H 20000 11500 50  0001 C CNN
+	1    20000 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6023D882
+P 20000 12000
+F 0 "H6" H 20100 12046 50  0000 L CNN
+F 1 "MountingHole" H 20100 11955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 20000 12000 50  0001 C CNN
+F 3 "~" H 20000 12000 50  0001 C CNN
+	1    20000 12000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	17850 11350 17850 12150
+Wire Notes Line
+	21700 12150 21700 11350
+Text Notes 19400 11250 0    100  ~ 0
+Mounting M3
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6038CD36
+P 21000 11500
+F 0 "H7" H 21100 11546 50  0000 L CNN
+F 1 "MountingHole" H 21100 11455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 21000 11500 50  0001 C CNN
+F 3 "~" H 21000 11500 50  0001 C CNN
+	1    21000 11500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	17850 12150 21700 12150
+Wire Notes Line
+	17850 11350 21700 11350
+$Comp
+L Device:R R?
+U 1 1 60B2C537
+P 11650 5400
+AR Path="/5FF3B238/60B2C537" Ref="R?"  Part="1" 
+AR Path="/60B2C537" Ref="R32"  Part="1" 
+F 0 "R32" V 11600 5650 50  0000 L CNN
+F 1 "DNP" V 11750 5300 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 11580 5400 50  0001 C CNN
+F 3 "~" H 11650 5400 50  0001 C CNN
+F 4 "~" H 11650 5400 50  0001 C CNN "PartNumber"
+F 5 "~" H 11650 5400 50  0001 C CNN "Description"
+F 6 "DNP" V 11650 5400 50  0001 C CNN "DNPstatus"
+	1    11650 5400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	11800 5400 11850 5400
+Wire Wire Line
+	11850 5400 11850 5600
+Connection ~ 11850 5600
+Wire Wire Line
+	11500 5400 11450 5400
+Wire Wire Line
+	11450 5400 11450 5600
+Connection ~ 11450 5600
+Wire Wire Line
+	11500 5200 11450 5200
+Wire Wire Line
+	11450 5200 11450 5400
+Connection ~ 11450 5400
+Wire Wire Line
+	11800 5200 11850 5200
+Wire Wire Line
+	11850 5200 11850 5400
+Connection ~ 11850 5400
+$Comp
+L Device:R R?
+U 1 1 60C90EB5
+P 11650 5200
+AR Path="/5FF3B238/60C90EB5" Ref="R?"  Part="1" 
+AR Path="/60C90EB5" Ref="R31"  Part="1" 
+F 0 "R31" V 11600 5450 50  0000 L CNN
+F 1 "DNP" V 11750 5100 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 11580 5200 50  0001 C CNN
+F 3 "~" H 11650 5200 50  0001 C CNN
+F 4 "~" H 11650 5200 50  0001 C CNN "PartNumber"
+F 5 "~" H 11650 5200 50  0001 C CNN "Description"
+F 6 "DNP" V 11650 5200 50  0001 C CNN "DNPstatus"
+	1    11650 5200
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
