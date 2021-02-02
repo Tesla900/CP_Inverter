@@ -4345,8 +4345,8 @@ F 0 "Q2" H 13455 3296 50  0000 L CNN
 F 1 "C3M0060065D" H 12750 3450 50  0000 L CNN
 F 2 "mylib-footprints:TO-247-3_Horizontal_TabUp" H 13500 3175 50  0001 L CIN
 F 3 "https://www.digikey.com/en/products/detail/cree-wolfspeed/C3M0060065D/12525330" H 13250 3250 50  0001 L CNN
-F 4 "C3M0060065D" H 13250 3250 50  0001 C CNN "C3M0060065D"
-F 5 "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3" H 13250 3250 50  0001 C CNN "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3"
+F 4 "C3M0060065D" H 13250 3250 50  0001 C CNN "PartNumber"
+F 5 "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3" H 13250 3250 50  0001 C CNN "Description"
 	1    13250 3250
 	-1   0    0    -1  
 $EndComp
@@ -4358,8 +4358,8 @@ F 0 "Q3" H 13455 5346 50  0000 L CNN
 F 1 "C3M0060065D" H 12750 5500 50  0000 L CNN
 F 2 "mylib-footprints:TO-247-3_Horizontal_TabUp" H 13500 5225 50  0001 L CIN
 F 3 "https://www.digikey.com/en/products/detail/cree-wolfspeed/C3M0060065D/12525330" H 13250 5300 50  0001 L CNN
-F 4 "C3M0060065D" H 13250 5300 50  0001 C CNN "C3M0060065D"
-F 5 "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3" H 13250 5300 50  0001 C CNN "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3"
+F 4 "C3M0060065D" H 13250 5300 50  0001 C CNN "PartNumber"
+F 5 "N-Channel SiC 650V 37A (Tc) 150W (Tc) Through Hole TO-247-3" H 13250 5300 50  0001 C CNN "Description"
 	1    13250 5300
 	-1   0    0    -1  
 $EndComp
